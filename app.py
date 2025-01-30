@@ -1,8 +1,6 @@
 import streamlit as st
 st.header("Calculadora PAS 2", divider="rainbow")
 matricula_especifica = (st.text_input("Insira seu número de matrícula:"))
-nota_maxima1 = max(escoreparte1)
-print("Os escores brutos da parte 1 mais altos foram: {nota_maxima1")
 try:
     num = int(matricula_especifica)
     matricula_especifica = num
@@ -133,3 +131,5 @@ if candidato_especifico:
     st.markdown(f"Nota de redação: {redacao_acima} candidatos acima")
 else:
     st.markdown(f"Candidato {matricula_especifica} não encontrado.")
+nota_maxima1 = max(escoreparte1)
+print("Os escores brutos da parte 1 mais altos foram: {nota_maxima1")
