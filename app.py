@@ -107,7 +107,7 @@ if candidato_especifico:
     somatorio_acima = contar_candidatos_acima(candidato_especifico['somatório dos escores brutos nas partes 1 e 2'], 'somatório dos escores brutos nas partes 1 e 2')
     tipoD_acima = contar_candidatos_acima(candidato_especifico['nota final nos itens do tipo D'], 'nota final nos itens do tipo D')
     redacao_acima = contar_candidatos_acima(candidato_especifico['nota redação'], 'nota redação')
-
+    st.header(" ", divider="green")
     # Exibir o ranking de candidatos acima
     st.markdown(f"\nRanking de candidatos acima de {candidato_especifico['nome']}")
     st.markdown(f"Escores da parte 1: {escore1_acima} candidatos acima")
