@@ -86,7 +86,7 @@ def contar_candidatos_acima(candidato_valor, item):
     return count
 # Comparar os dados do candidato específico com as médias
 if candidato_especifico: 
-    st.markdown(f"\nComparação com o candidato {candidato_especifico['nome']} (Matrícula: {candidato_especifico['matricula']}):")  
+    st.markdown(f"\nComparação com o candidato {candidato_especifico['nome']} (Matrícula: {candidato_especifico['matricula']})")  
     # Exibir as diferenças percentuais para cada item
     escore1_diff = calcular_diferenca_percentual(candidato_especifico['escore bruto na parte 1'], media_escore1)
     escore2_diff = calcular_diferenca_percentual(candidato_especifico['escore bruto na parte 2'], media_escore2)
@@ -109,7 +109,7 @@ if candidato_especifico:
     redacao_acima = contar_candidatos_acima(candidato_especifico['nota redação'], 'nota redação')
 
     # Exibir o ranking de candidatos acima
-    st.markdown(f"\nRanking de candidatos acima de {candidato_especifico['nome']}:")
+    st.markdown(f"\nRanking de candidatos acima de {candidato_especifico['nome']}")
     st.markdown(f"Escores da parte 1: {escore1_acima} candidatos acima")
     st.markdown(f"Escores da parte 2: {escore2_acima} candidatos acima")
     st.markdown(f"Somatório dos escores: {somatorio_acima} candidatos acima")
