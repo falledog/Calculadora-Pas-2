@@ -20,6 +20,10 @@ if matricula_especifica == ("Uniâo Sinistra"):
     st.image("https://pbs.twimg.com/media/F5gxESlW0AAqT31.jpg")
 if matricula_especifica == ("União sinistra"):
     st.image("https://pbs.twimg.com/media/F5gxESlW0AAqT31.jpg")
+if matricula_especifica == ("gigi"):
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS730chsfyTP2HJAxtVTWCacXzt_pL2bSOzMA&s")
+if matricula_especifica == ("falledog"):
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS730chsfyTP2HJAxtVTWCacXzt_pL2bSOzMA&s")
 # Criar uma lista para armazenar os usuários
 candidatos = []
 
