@@ -131,5 +131,14 @@ if candidato_especifico:
     st.markdown(f"Nota de redação: {redacao_acima} candidatos acima")
 else:
     st.markdown(f"Candidato {matricula_especifica} não encontrado.")
-nota_maxima1 = max(escoreparte1)
-print(f"Os escores brutos da parte 1 mais altos foram: {nota_maxima}")
+nota_maxima1 = max(escoreparte1.values())
+nota_minima1 = min(escoreparte1.values())
+
+# Lista de alunos com a maior nota
+alunos_max = [aluno for aluno, nota in notas.items() if nota == nota_maxima]
+
+# Lista de alunos com a menor nota
+alunos_min = [aluno for aluno, nota in notas.items() if nota == nota_minima]
+
+print(f"A maior nota é {nota_maxima}, tirada por: {', '.join(alunos_max)}.")
+print(f"A menor nota é {nota_minima}, tirada por: {', '.join(alunos_min)}.")
