@@ -100,7 +100,7 @@ if candidato_especifico:
     st.markdown(f"Somatório dos escores: {candidato_especifico['somatório dos escores brutos nas partes 1 e 2']} (Diferença: {somatorio_diff:.2f}%) vs. Média: {media_total_escores:.2f}")
     st.markdown(f"Nota final nos itens do tipo D: {candidato_especifico['nota final nos itens do tipo D']} (Diferença: {tipoD_diff:.2f}%) vs. Média: {media_tipoD:.2f}")
     st.markdown(f"Nota de redação: {candidato_especifico['nota redação']} (Diferença: {redacao_diff:.2f}%) vs. Média: {media_redacao:.2f}")
-    
+st.markdown(" ")
     # Contar quantos candidatos ficaram acima do candidato específico
     escore1_acima = contar_candidatos_acima(candidato_especifico['escore bruto na parte 1'], 'escore bruto na parte 1')
     escore2_acima = contar_candidatos_acima(candidato_especifico['escore bruto na parte 2'], 'escore bruto na parte 2')
