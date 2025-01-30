@@ -11,7 +11,7 @@ with open("Notaspas2.txt", "r") as file:
     linhas = file.readlines()
     
 if matricula_especifica == ("troll"):
-    st.image(https://pt.wikipedia.org/wiki/Trollface#/media/Ficheiro:Trollface.png)
+    st.image("https://pt.wikipedia.org/wiki/Trollface#/media/Ficheiro:Trollface.png")
 # Criar uma lista para armazenar os usuários
 candidatos = []
 
