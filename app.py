@@ -132,4 +132,4 @@ if candidato_especifico:
 else:
     st.markdown(f"Candidato {matricula_especifica} não encontrado.")
 nota_maxima1 = max(escoreparte1)
-print("Os escores brutos da parte 1 mais altos foram: {nota_maxima1")
+print(f"Os escores brutos da parte 1 mais altos foram: {nota_maxima}")
