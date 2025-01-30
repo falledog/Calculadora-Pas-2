@@ -116,4 +116,4 @@ if candidato_especifico:
     st.markdown(f"Nota final nos itens do tipo D: {tipoD_acima} candidatos acima")
     st.markdown(f"Nota de redação: {redacao_acima} candidatos acima")
 else:
-    st.markdown(f"Candidato com matrícula {matricula_especifica} não encontrado.")
+    st.markdown(f"Candidato {matricula_especifica} não encontrado.")
