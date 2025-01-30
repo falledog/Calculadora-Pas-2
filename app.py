@@ -93,7 +93,7 @@ if candidato_especifico:
     somatorio_diff = calcular_diferenca_percentual(candidato_especifico['somatório dos escores brutos nas partes 1 e 2'], media_total_escores)
     tipoD_diff = calcular_diferenca_percentual(candidato_especifico['nota final nos itens do tipo D'], media_tipoD)
     redacao_diff = calcular_diferenca_percentual(candidato_especifico['nota redação'], media_redacao)
-    
+    st.header(" ", divider="green")
     # Exibir resultados
     st.markdown(f"Escores da parte 1: {candidato_especifico['escore bruto na parte 1']} (Diferença: {escore1_diff:.2f}%) vs. Média: {media_escore1:.2f}")
     st.markdown(f"Escores da parte 2: {candidato_especifico['escore bruto na parte 2']} (Diferença: {escore2_diff:.2f}%) vs. Média: {media_escore2:.2f}")
