@@ -1,6 +1,7 @@
 import streamlit as st
 st.header("Calculadora PAS 2")
-matricula_especifica = int(float st.text_input("Seu número de matrícula é: "))
+matricula_especifica = int("0")
+matricula_especifica = int(st.text_input("Seu número de matrícula é: "))
 # Abrir e ler o arquivo
 with open("Notaspas2.txt", "r") as file:
     linhas = file.readlines()
