@@ -12,6 +12,14 @@ with open("Notaspas2.txt", "r") as file:
     
 if matricula_especifica == ("troll"):
     st.image("https://p.turbosquid.com/ts-thumb/9B/qh1DP5/7j/trollfacewhite3dmodel001/jpg/1640628187/600x600/fit_q87/3e47aef92f51715ae24b22a9548800e03ae096d1/trollfacewhite3dmodel001.jpg")
+if matricula_especifica == ("uniao sinistra"):
+    st.image("https://pbs.twimg.com/media/F5gxESlW0AAqT31.jpg")
+if matricula_especifica == ("união sinistra"):
+    st.image("https://pbs.twimg.com/media/F5gxESlW0AAqT31.jpg")
+if matricula_especifica == ("Uniâo Sinistra"):
+    st.image("https://pbs.twimg.com/media/F5gxESlW0AAqT31.jpg")
+if matricula_especifica == ("União sinistra"):
+    st.image("https://pbs.twimg.com/media/F5gxESlW0AAqT31.jpg")
 # Criar uma lista para armazenar os usuários
 candidatos = []
 
