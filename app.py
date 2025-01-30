@@ -86,7 +86,7 @@ def contar_candidatos_acima(candidato_valor, item):
     return count
 # Comparar os dados do candidato específico com as médias
 if candidato_especifico: 
-    st.markdown(f"\nComparação com o candidato {candidato_especifico['nome']}")  
+    st.markdown(f"\nResultado do candidato {candidato_especifico['nome']}")  
     # Exibir as diferenças percentuais para cada item
     escore1_diff = calcular_diferenca_percentual(candidato_especifico['escore bruto na parte 1'], media_escore1)
     escore2_diff = calcular_diferenca_percentual(candidato_especifico['escore bruto na parte 2'], media_escore2)
