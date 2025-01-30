@@ -1,7 +1,7 @@
 import streamlit as st
-st.header("Calculadora PAS 2")
-matricula_especifica = (st.text_input("Seu número de matrícula é:", divider="rainbow"))
-try:
+st.header("Calculadora PAS 2", divider="rainbow"))
+try:)
+matricula_especifica = (st.text_input("Seu número de matrícula é:"
     num = int(matricula_especifica)
     matricula_especifica = num
 except ValueError:
